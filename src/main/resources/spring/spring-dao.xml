@@ -111,7 +111,7 @@
 
     <!-- 事物处理 -->
     <aop:config>
-        <aop:advisor advice-ref="txAdvice" pointcut="execution(* hstc.edu.cn.service.*Service.*Impl.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* hstc.edu.cn.service.*.*(..))"/>
     </aop:config>
 
 </beans>
