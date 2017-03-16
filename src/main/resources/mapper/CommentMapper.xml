@@ -9,7 +9,7 @@
         <result property="content" column="content"/>
         <result property="commentDate" column="commentDate"/>
         <result property="state" column="state"/>
-        <association property="blog" column="blog_id" select="ssm.blog.dao.BlogDao.findById">
+        <association property="blog" column="blog_id" select="hstc.edu.cn.mapper.BlogMapper.findById">
         </association>
     </resultMap>
 

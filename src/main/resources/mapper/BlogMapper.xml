@@ -14,7 +14,7 @@
         <result property="content" column="content"/>
         <result property="keyWord" column="keyWord"/>
 
-        <association property="blogType" column="type_id" select="ssm.blog.dao.BlogTypeDao.findById">
+        <association property="blogType" column="type_id" select="hstc.edu.cn.mapper.BlogTypeMapper.findById">
         </association>
     </resultMap>
 
