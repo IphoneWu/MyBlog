@@ -1,6 +1,7 @@
 package hstc.edu.cn.util;
 
-import ssm.blog.entity.Blog;
+
+import hstc.edu.cn.po.Blog;
 
 /**
  * 分页工具类
