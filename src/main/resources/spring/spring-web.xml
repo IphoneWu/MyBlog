@@ -26,15 +26,20 @@
     <mvc:resources mapping="/js/**" location="/static/js/"/>
     <mvc:resources mapping="/fonts/**" location="/static/fonts/"/>
 
+    <mvc:resources mapping="/bootstrap3/**" location="/static/bootstrap3/"/>
+    <mvc:resources mapping="/jquery-easyui-1.3.3/**" location="/static/jquery-easyui-1.3.3/"/>
+    <mvc:resources mapping="/ueditor1_4_3_3/**" location="/static/ueditor1_4_3_3/"/>
+    <mvc:resources mapping="/userImages/**" location="/static/userImages/"/>
+    <mvc:resources mapping="/view/**" location="/static/view/"/>
     <mvc:default-servlet-handler/>
 
-    <!-- 访问拦截  -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/**/**"/>
-            <bean class="hstc.edu.cn.intercepter.LoginHandlerInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>
+    <!--&lt;!&ndash; 访问拦截  &ndash;&gt;-->
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/**/**"/>-->
+            <!--<bean class="hstc.edu.cn.intercepter.LoginHandlerInterceptor"/>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
 
     <!-- 3.配置jsp 显示ViewResolver -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

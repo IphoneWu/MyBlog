@@ -226,7 +226,7 @@ a {
 			<DIV
 				style="height: 50px; line-height: 50px; margin-top: 30px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;">
 				<P style="margin: 0px 35px 20px 45px;">
-					<SPAN style="float: left;">倪升武的SSM博客系统</SPAN> 
+					<SPAN style="float: left;">SSM博客系统</SPAN>
 					<span><font color="red" id="error">${errorInfo }</font></span> 
 					<SPAN
 						style="float: right;"> 

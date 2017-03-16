@@ -7,6 +7,7 @@ import hstc.edu.cn.util.DateUtil;
 import hstc.edu.cn.util.ResponseUtil;
 import net.sf.json.JSONObject;
 import org.apache.shiro.SecurityUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -26,7 +27,7 @@ import java.io.File;
 @RequestMapping("/admin/blogger")
 public class BloggerAdminController {
 
-	@Resource
+	@Autowired
 	private BloggerService bloggerService;
 	
 	// 查询博主信息

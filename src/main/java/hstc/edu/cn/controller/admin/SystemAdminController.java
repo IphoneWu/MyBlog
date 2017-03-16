@@ -10,6 +10,7 @@ import hstc.edu.cn.service.BloggerService;
 import hstc.edu.cn.service.LinkService;
 import hstc.edu.cn.util.ResponseUtil;
 import net.sf.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.support.RequestContextUtils;
@@ -27,13 +28,13 @@ import java.util.List;
 @RequestMapping("/admin/system")
 public class SystemAdminController {
 
-	@Resource
+	@Autowired
 	private BloggerService bloggerService;
-	@Resource
+	@Autowired
 	private LinkService linkService;
-	@Resource
+	@Autowired
 	private BlogTypeService blogTypeService;
-	@Resource
+	@Autowired
 	private BlogService blogService;
 
 	// Ë¢ÐÂÏµÍ³»º´æ

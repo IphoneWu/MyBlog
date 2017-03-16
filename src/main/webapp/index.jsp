@@ -26,7 +26,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="blog"><strong>倪升武的博客</strong></div>
+				<div class="blog"><strong>测试的博客</strong></div>
 			</div>
 			<div class="col-md-8">
 				<iframe style="float:right" width="420" scrolling="no" height="60" frameborder="0"
